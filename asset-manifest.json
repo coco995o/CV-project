@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CV-project/static/css/main.55b47bc0.css",
+    "main.js": "/CV-project/static/js/main.31b5bff9.js",
+    "index.html": "/CV-project/index.html",
+    "main.55b47bc0.css.map": "/CV-project/static/css/main.55b47bc0.css.map",
+    "main.31b5bff9.js.map": "/CV-project/static/js/main.31b5bff9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55b47bc0.css",
+    "static/js/main.31b5bff9.js"
+  ]
+}
