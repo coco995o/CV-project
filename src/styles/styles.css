@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+#root{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+.header{
+    background-color: aquamarine;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header h1{
+    margin: 0;
+}
+.general{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.experience-div{
+    display: grid;
+}
+.education-div{
+    display: grid;
+
+}
+.general-container{
+    width: 900px;
+    height: 800px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+    padding: 1%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    overflow-y: auto;
+}
+.general-container table{
+    font-size: 16px;
+}
+
+.general-container div{
+    height: 100%;
+}
+.personal-info tr{
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    gap: 25px;
+}
+.printme table{
+    display: grid;
+    justify-content: center;
+    gap: 25px;
+}
+.print-button{
+    width: 150px;
+
+}
+@media print{
+    .no-printme {display: none;}
+    .printme {display: block;}
+    .personal-info{display: grid;}
+    .personal-info tr{
+        display: grid;
+    }
+}
